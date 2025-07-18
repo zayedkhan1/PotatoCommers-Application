@@ -8,12 +8,12 @@ import Home from "../Pages/Home";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <MainLayout></MainLayout> ,
-    children:[
-        {
-            path:'/',
-            element:<Home></Home>
-        }
+    element: <MainLayout></MainLayout>,
+    children: [
+      {
+        path: '/',
+        element: <Home></Home>
+      }
     ]
   },
 ]);

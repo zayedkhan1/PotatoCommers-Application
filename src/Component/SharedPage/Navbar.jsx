@@ -17,13 +17,13 @@ const Navbar = () => {
         } else {
             if (query.trim() !== "") {
                 // 🔷 here you can replace console.log with your actual search logic
-            } 
+            }
         }
     };
 
     return (
         <div>
-            <nav className=' w-full fixed top-0 left-0 z-50 shadow'>
+            <nav className=' w-full  top-0 left-0 z-50 '>
                 <div className='max-w-7xl mx-auto '>
                     <div className='flex items-center justify-around  h-16'>
                         <div>
@@ -68,7 +68,7 @@ const Navbar = () => {
                                         placeholder="Search"
                                         className={`transition-all duration-300 border border-gray-300 rounded-full px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400
                                           ${isOpen ? "w-64 opacity-100" : "w-0 opacity-0 px-0"} `}
-                                    /> 
+                                    />
                                     <button
                                         onClick={handleSearch}
                                         className="p-2 text-gray-600 hover:text-blue-600 transition-colors"
