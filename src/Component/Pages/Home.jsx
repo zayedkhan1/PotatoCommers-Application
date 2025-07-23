@@ -71,10 +71,10 @@ const Home = () => {
                             FoodMenu.map((Food, idx) => (
                                 <div key={idx} className='flex flex-col items-center justify-center w-[90px] space-y-2 text-gray-600 mb-5 ' >
 
-                                    <img
+                                     <img
                                         className='hover:bg-gray-300 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300 '
                                         src={Food.img} alt={Food.title} />
-                                    <p>{Food.title}</p>
+                                     <p>{Food.title}</p>
 
                                 </div>
                             ))
